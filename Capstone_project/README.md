@@ -1,4 +1,4 @@
-# Capstone Project – Fashionista (E-Commerce Website)
+# Capstone Project – Yash shop (E-Commerce Website)
 
 This is my Capstone Project for Web Development Lab.  
 The project is a fully responsive **E-Commerce Fashion Store UI** made using **HTML5 + CSS3 only**.
@@ -92,5 +92,6 @@ You can also host it on **GitHub Pages** for online viewing.
 **Yash Verma**  
 B.Tech CSE (AI & ML)  
 KRMU (Web Development Lab – Capstone Project)
+
 
 
