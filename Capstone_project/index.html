@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yash shop — Capstone E-Commerce UI</title>
+  <link rel="stylesheet" href="capstone.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar" role="banner">
+    <div class="container" style="display:flex;align-items:center;gap:1rem;justify-content:space-between;">
+      <div style="display:flex;align-items:center;gap:1rem;flex:1">
+        <div class="logo">FASHIONISTA</div>
+
+        <!-- Search (semantic form) -->
+        <form class="search-box" role="search" action="#" method="get" aria-label="Search products">
+          <label class="visually-hidden" for="site-search">Search products</label>
+          <input id="site-search" name="q" type="search" placeholder="Search for products..." />
+          <button class="search-icon" type="submit" aria-label="Search">🔍</button>
+        </form>
+      </div>
+
+      <!-- nav links -->
+      <nav aria-label="Main navigation">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Deals</a>
+        <a href="#">Contact</a>
+      </nav>
+
+      <!-- right side -->
+      <div class="nav-icons" style="display:flex;align-items:center;gap:0.5rem;">
+        <a class="btn-login" href="#login" role="button">Login</a>
+        <a class="btn-premium" href="#premium" role="button">Go Premium</a>
+        <div class="icon-circle" aria-hidden="true">🛒</div>
+        <div class="icon-circle" aria-hidden="true">👤</div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero-section" role="region" aria-label="Promotional hero">
+      <div class="hero-content container">
+        <h1>Summer Sale is Here!</h1>
+        <p>Up to 50% off on selected styles. Refresh your wardrobe with the latest trends.</p>
+        <a class="shop-btn" href="#" role="button">Shop Now</a>
+      </div>
+    </section>
+
+    <!-- FLASH SALE -->
+    <div class="flash-sale" role="status" aria-live="polite">
+      <span>⚡ Flash Sale: Extra 20% OFF! Ends in</span>
+      <div class="timer" aria-hidden="true">
+        <div class="time-box">02</div> :
+        <div class="time-box">39</div> :
+        <div class="time-box">23</div>
+      </div>
+    </div>
+
+    <!-- PRODUCTS -->
+    <section class="products" aria-label="Featured products">
+      <h2 class="text-center">Featured Products</h2>
+
+      <div class="grid" role="list">
+        <!-- Card 1 -->
+        <article class="card" role="listitem">
+          <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=800&q=60" alt="Red sneakers on white background">
+          <h3>Red Sneakers</h3>
+          <p class="price">₹1499</p>
+          <a class="btn-buy" href="#" role="button">Buy Now</a>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="card" role="listitem">
+          <img src="https://images.pexels.com/photos/3394659/pexels-photo-3394659.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Classic over-ear headphones">
+          <h3>Classic Headphones</h3>
+          <p class="price">₹999</p>
+          <a class="btn-buy" href="#" role="button">Buy Now</a>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="card" role="listitem">
+          <img src="https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Smart watch on black strap">
+          <h3>Smart Watch</h3>
+          <p class="price">₹1999</p>
+          <a class="btn-buy" href="#" role="button">Buy Now</a>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="card" role="listitem">
+          <img src="https://images-cdn.ubuy.co.in/660afb0ee5b60126023db7d9-aesthetic-backpack-cute-student-backpack.jpg" alt="Aesthetic backpack for students">
+          <h3>Backpack</h3>
+          <p class="price">₹799</p>
+          <a class="btn-buy" href="#" role="button">Buy Now</a>
+        </article>
+
+        <!-- Card 5 -->
+        <article class="card" role="listitem">
+          <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTcRpDs6k3yC3ltGGU81_hK5AgSymggpPZyIdGLxCqp43ZfslyAClSs9ogblPOQw0NmyAMBDNI8nmtpOo9x7gzdmQFKZRQQeT5NzButOzKP5ZFGo2i6dMqMleb1uwqBIAKtii87GUoaEg&usqp=CAc" alt="Wireless earbuds in case">
+          <h3>Wireless Earbuds</h3>
+          <p class="price">₹1299</p>
+          <a class="btn-buy" href="#" role="button">Buy Now</a>
+        </article>
+
+        <!-- Card 6 -->
+        <article class="card" role="listitem">
+          <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS0X2wdREDn51GpK9LQbeZn42hO_y1aXvwRlcsDRj08BIxTzZOGhe97IgowIkH8-s3LuEVnWKNCK2YpPp1nXWQ998assQWqXgeTue7ItHYNVBxnGwEsd8G3_qModEUnvwymmGzHJljs-B4&usqp=CAc" alt="Leather wallet on wooden surface">
+          <h3>Leather Wallet</h3>
+          <p class="price">₹499</p>
+          <a class="btn-buy" href="#" role="button">Buy Now</a>
+        </article>
+
+        <!-- Card 7 -->
+        <article class="card" role="listitem">
+          <img src="data:image/webp;base64,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" alt="Sports watch on wrist">
+          <h3>Sports Watch</h3>
+          <p class="price">₹2499</p>
+          <a class="btn-buy" href="#" role="button">Buy Now</a>
+        </article>
+
+        <!-- Card 8 -->
+        <article class="card" role="listitem">
+          <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQfp4IJetfNDyQqVzdURc2jS_oo1c4Nw2XfHt_pa4ZpLjJiyB3yNM7dWE5Ip9hHr6JHPlUwRf2Hu7sAAsNlioLWT6kEWYSnR0k0yn7fAKOE9q_WX9_0UEG-" alt="Gaming mouse on desk">
+          <h3>Gaming Mouse</h3>
+          <p class="price">₹899</p>
+          <a class="btn-buy" href="#" role="button">Buy Now</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials" aria-label="Customer testimonials">
+      <h2>What Our Customers Say</h2>
+      <div class="testimonial-container">
+        <div class="testimonial-card">
+          <img class="avatar" src="https://i.pravatar.cc/80?img=47" alt="Emily avatar">
+          <h3>Emily R.</h3>
+          <p>"Absolutely love the quality and fast shipping! My new favorite store."</p>
+        </div>
+
+        <div class="testimonial-card">
+          <img class="avatar" src="https://i.pravatar.cc/80?img=12" alt="James avatar">
+          <h3>James K.</h3>
+          <p>"Great selection and amazing deals. The flash sale was a steal!"</p>
+        </div>
+
+        <div class="testimonial-card">
+          <img class="avatar" src="https://i.pravatar.cc/80?img=32" alt="Sophia avatar">
+          <h3>Sophia L.</h3>
+          <p>"Customer service was super helpful. Will definitely shop again."</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOGIN -->
+    <section id="login" aria-label="Login section">
+      <div class="login-box" role="form" aria-label="Login form">
+        <h2>Login</h2>
+        <label class="visually-hidden" for="email">Email</label>
+        <input id="email" type="email" placeholder="Enter email" required>
+        <label class="visually-hidden" for="password">Password</label>
+        <input id="password" type="password" placeholder="Enter password" required>
+        <button class="login-btn" type="button">Login</button>
+      </div>
+    </section>
+
+    <!-- SUBSCRIBE / ACTION -->
+    <section id="action" class="action" aria-label="Subscribe to newsletter">
+      <h1>STAY IN THE LOOP</h1>
+      <p>Sign up for exclusive offers, new arrivals, and more</p>
+
+      <form class="subscribe-form" action="#" method="get" aria-label="Subscribe form">
+        <label class="visually-hidden" for="subscriber-email">Email address</label>
+        <input id="subscriber-email" type="email" placeholder="you@email.com" required>
+        <button type="submit">SUBSCRIBE</button>
+      </form>
+    </section>
+
+    <!-- PREMIUM -->
+    <section id="premium" class="premium" aria-label="Premium membership">
+      <h2>Premium Membership</h2>
+      <p>✔ Get exclusive deals</p>
+      <p>✔ Free delivery</p>
+      <p>✔ Early access to sales</p>
+      <p style="margin-top:10px;font-weight:bold;">Only ₹299/month</p>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-grid container">
+      <div>
+        <h3>Account</h3>
+        <p>Login</p>
+        <p>Register</p>
+        <p>Order History</p>
+        <p>Wishlist</p>
+      </div>
+
+      <div>
+        <h3>Help</h3>
+        <p>Contact Us</p>
+        <p>Shipping</p>
+        <p>Returns</p>
+        <p>FAQs</p>
+      </div>
+
+      <div>
+        <h3>Policies</h3>
+        <p>Privacy Policy</p>
+        <p>Terms of Service</p>
+        <p>Cookie Policy</p>
+      </div>
+
+      <div>
+        <h3>Follow Us</h3>
+        <p>Instagram • Twitter • Facebook</p>
+      </div>
+    </div>
+
+    <p class="copyright">© 2025 Yash shop — All Rights Reserved</p>
+  </footer>
+
+  <!-- small utility for screen-reader-only labels -->
+  <style>
+    .visually-hidden{
+      position:absolute !important;
+      height:1px;width:1px;
+      overflow:hidden;clip:rect(1px,1px,1px,1px);
+      white-space:nowrap;border:0;padding:0;margin:-1px;
+    }
+  </style>
+</body>
+</html>
