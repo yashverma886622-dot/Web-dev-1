@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="logo">MyPortfolio</div>
+
+        <nav class="nav">
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+        <div class="hero-text">
+            <h1 class="fade-in">Hi, I'm <span class="highlight">Yash</span></h1>
+            <h2 class="animate-role">Full Stack Developer</h2>
+            <p>I build modern and responsive websites using HTML, CSS, JavaScript and more.</p>
+            
+        </div>
+
+        <div class="hero-img">
+            <img src="image.png" alt="Profile Picture">
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <h2 class="section-title">About Me</h2>
+        <p>I am a web developer passionate about creating responsive UI, modern layouts, animations and interactive web experiences.</p>
+    </section>
+
+    <!-- SKILLS (CSS GRID) -->
+    <section class="skills" id="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+            <div class="card">HTML</div>
+            <div class="card">CSS</div>
+            <div class="card">JavaScript</div>
+            <div class="card">React</div>
+            <div class="card">Node.js</div>
+            <div class="card">Git & GitHub</div>
+        </div>
+    </section>
+
+    <!-- PROJECTS (CSS GRID) -->
+    <section class="projects" id="projects">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>A modern responsive portfolio using Flexbox + Grid.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Todo App</h3>
+                <p>Task manager built using HTML, CSS and JS.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Weather App</h3>
+                <p>Fetches live weather using API.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT FORM -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Contact Me</h2>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Message"></textarea>
+            <button class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2025 Yash | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
