@@ -1,7 +1,7 @@
 A simple and interactive JavaScript Quiz Application that runs entirely inside the browser console.
 The quiz asks multiple-choice and fact-based questions using prompt(), validates user input, gives instant feedback using alert(), and finally displays the overall score.
 
-📌 Project Description
+ Project Description
 
 This project is created for Web Dev Lab Assignment – Prompt Quizzer.
 The goal is to practice:
@@ -20,7 +20,7 @@ Conditionals
 
 Alerts & Prompts
 
-🎯 Features
+ Features
 
 ✔ Runs in browser console
 ✔ Asks 5 predefined questions
@@ -30,7 +30,7 @@ Alerts & Prompts
 ✔ Correct/wrong feedback using alert()
 ✔ Tracks and shows final score
 
-📄 Quiz Code (quiz.js)
+ Quiz Code (quiz.js)
 const quizQuestions = [
     {
         question: "What is the capital of India?",
@@ -86,7 +86,7 @@ function runQuiz() {
 // Start the quiz
 runQuiz();
 
-▶️ How to Run the Quiz
+ How to Run the Quiz
 
 Open Chrome / Edge / Firefox
 
@@ -100,7 +100,7 @@ Press Enter
 
 The quiz will start instantly
 
-📚 Concepts Used
+ Concepts Used
 
 Arrays to store questions
 
@@ -118,7 +118,7 @@ Conditionals for checking answers
 
 Score variable to track performance
 
-🚀 Optional Improvements
+ Optional Improvements
 
 You can upgrade this project with:
 
